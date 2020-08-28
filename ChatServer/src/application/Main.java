@@ -41,7 +41,7 @@ public class Main extends Application {
 		// ServerSocket 생성 및 바인딩
 		try {
 			serverSocket = new ServerSocket();
-			serverSocket.bind(new InetSocketAddress("localhost",9999));
+			serverSocket.bind(new InetSocketAddress("localhost",9994));
 		} catch (Exception e) {
 			if (!serverSocket.isClosed()) {
 				stopServer();
